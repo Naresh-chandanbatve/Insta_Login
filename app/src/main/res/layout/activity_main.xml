@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="@string/english_02c5"
+        android:textColor="@color/whitish"
+        />
+
+    <ImageView
+        android:layout_marginTop="150dp"
+        android:layout_width="323dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:background="@drawable/insta_logo" />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Phone number, email or username"
+        android:background="@drawable/rounded"
+        android:textColorHint="@color/whitish"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:textColorHint="@color/whitish"
+        android:hint="Password"
+        android:gravity="center"
+        android:background="@drawable/rounded"
+        android:textColor="@color/whitish"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:text="Log In"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_buttn"
+        />
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Forgot your login details?"
+            android:textColor="@color/whitish"
+            />
+
+        <TextView
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/get_help"
+            android:textColor="@color/white"
+            android:layout_marginLeft="8dp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="bottom">
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_gravity="bottom"
+    android:background="@color/whitish"
+    />
+
+
+       <LinearLayout
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="20dp"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Don't have an account?"
+               />
+           <TextView
+               android:layout_marginStart="8dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/sign_up"
+               android:textColor="@color/white"
+               android:layout_marginLeft="8dp"
+               />
+
+
+       </LinearLayout>
+
+
+   </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+

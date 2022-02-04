@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Insta_Signin</string>
+    <string name="english_02c5">English ᐯ</string>
+    <string name="billabong">Billabong</string>
+    <string name="sign_up"><b>Sign up.</b></string>
+    <string name="get_help"><b>Get help logging in.</b></string>
+</resources>

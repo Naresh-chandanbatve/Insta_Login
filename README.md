@@ -15,5 +15,5 @@
 ## Steps to run the app
 1. go to release section.
 2. Then assets
-3. click on .apk.
+3. click on Insta Login Page.
 4. install the apk on anddroid.
